@@ -4,4 +4,5 @@
     <attr name="widthRatio" format="integer"/>
     <attr name="heightRatio" format="integer"/>
   </declare-styleable>
+
 </resources>
