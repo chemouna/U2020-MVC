@@ -3,7 +3,8 @@ package com.mounacheikhna.u2020_mvc.controller;
 import android.content.Intent;
 import android.support.annotation.VisibleForTesting;
 
-import com.mounacheikhna.alias.AppDisplay;
+import com.mounacheikhna.u2020_mvc.AppDisplay;
+
 
 /**
  * Created by cheikhna on 13/05/2015.

@@ -2,6 +2,15 @@ package com.mounacheikhna.u2020_mvc;
 
 import android.app.Application;
 
+import com.mounacheikhna.u2020_mvc.data.LumberYard;
+import com.mounacheikhna.u2020_mvc.ui.ActivityHierarchyServer;
+import com.squareup.leakcanary.LeakCanary;
+
+import javax.inject.Inject;
+
+import timber.log.Timber;
+import timber.log.Timber.DebugTree;
+
 /**
  * Created by cheikhna on 19/08/15.
  */

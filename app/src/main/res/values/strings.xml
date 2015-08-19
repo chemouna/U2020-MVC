@@ -2,6 +2,7 @@
 <resources>
 
   <string name="application_name">U+2020 MVC</string>
+  <string name="launcher_name">U+2020 </string>
 
   <!-- Cheat by adding a trailing space to make the title and spinner look like one sentence. -->
   <string name="trending_title">Trending&#160;</string>

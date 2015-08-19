@@ -2,9 +2,8 @@ package com.mounacheikhna.u2020_mvc.controller;
 
 import android.support.annotation.NonNull;
 
-import com.mounacheikhna.alias.AppDisplay;
-import com.mounacheikhna.alias.lib.BuildConfig;
-import com.mounacheikhna.alias.state.BaseState;
+import com.mounacheikhna.u2020_mvc.AppDisplay;
+import com.mounacheikhna.u2020_mvc.state.BaseState;
 
 import java.util.Collections;
 import java.util.Set;
@@ -70,9 +69,9 @@ abstract class BaseUiController<U extends BaseUiController.Ui<UC>, UC>
     }
 
     protected synchronized final void populateUis() {
-        if (BuildConfig.DEBUG) {
+        //if (BuildConfig.DEBUG) {
             Timber.d(getClass().getSimpleName(), "populateUis");
-        }
+        //}
         for (U ui : mUis) {
             populateUi(ui);
         }

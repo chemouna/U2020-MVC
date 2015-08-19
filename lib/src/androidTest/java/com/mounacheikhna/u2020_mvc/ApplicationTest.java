@@ -1,4 +1,4 @@
-package com.mounacheikhna.u2020_mvclib;
+package com.mounacheikhna.u2020_mvc;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
